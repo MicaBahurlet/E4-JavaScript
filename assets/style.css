@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+     
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: whitesmoke;
+    gap:3rem;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 7rem auto;
+}
+
+h1{
+    font-size: 30px;
+    text-shadow: black 1px 0 1px;
+}
+
+.inputText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    color: black;
+    padding: 0.5rem;
+   
+}
+
+label{
+    font-size: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button{
+    color:#000;
+    Padding: 0.5rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+#pokemonCard{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+    gap: 1rem;
+    color: black;
+}
