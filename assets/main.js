@@ -11,7 +11,7 @@ function buscarPokemon() {
         .then(data => {
             if (data.name) {
                 const pokemonCard = document.getElementById('pokemonCard');
-                pokemonCard.innerHTML = `
+                pokemonCard.innerHTML = ` 
                     <h2>${data.name}</h2>
                     <p>Tipo: ${data.types.map(type => type.type.name).join(', ')}</p>
                     <p>Altura: ${(data.height / 10).toFixed(1)} metros</p>
